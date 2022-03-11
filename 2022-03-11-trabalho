@@ -1,0 +1,23 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	real portugues [5] biologia-[5] historia[5] arte[5] fisica [5] 
+	cadeia nome [5]
+	inteiro = Mindice
+	Mindice = 0
+	
+	para (Mindice =0; Mindice <4; Mindice ++)
+	{
+		escreva ("digite o Mnome turma1");
+		leia (Mnome, Mturma 1);
+		escreva(" mnota de portugues")
+	}
+	escreva( digite um nome );
+	leia nome (Mindice digite a nota)
+	escreva 
+	
+	
+	}
+}
