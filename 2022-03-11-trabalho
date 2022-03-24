@@ -10,13 +10,18 @@ programa
 	
 	para (Mindice =0; Mindice <4; Mindice ++)
 	{
-		escreva ("digite o Mnome turma1");
-		leia (Mnome, Mturma 1);
-		escreva(" mnota de portugues")
-	}
-	escreva( digite um nome );
-	leia nome (Mindice digite a nota)
-	escreva 
+		escreva ("digite um nome; ");
+		leia (Mnome [Mturma][mindice] );
+		escreva("digite a nota de portugues")
+	}leia (Mportugues[Mturma][Mindice])
+	escreva("digite a nota de biologia")
+	leia(Mbiologia[Mturma][Mindice) 
+	escreva ("digite a nota de história")
+	leia(Mhistória[Mturma][Mindice])
+	escreva("digite a nota de arte")
+	leia(Marte[Mturma][Mindice])
+	escreva("digite a nota de fisica")
+	leia(Mfisica[Mturma][Mindice]))
 	
 	
 	}
