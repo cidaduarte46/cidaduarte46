@@ -29,8 +29,12 @@ programa
 	}
 	para(Mturma = 0; Mturma <= 1; Mturma:"; Mindice ++)
 	{
-	escreva ("\nAluno:",
-	Mnome[Mturma][Mindice])
+	escreva ("\nAluno:", da turma:" Mturmas)
+	para(Mindice = 0; Mindice <= 1; Mindice ==)
+	{
+	
+	escreva ("\nAluno:", Mnome[Mturma][Mindice])
+	
 	}
 	}
 	
