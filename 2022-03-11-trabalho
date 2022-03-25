@@ -8,12 +8,15 @@ programa
 	inteiro = Mindice
 	Mindice = 0
 	
-	para (Mindice =0; Mindice <4; Mindice ++)
+	para (Mindice =0; Mindice <4; Mindice ++
 	{
-		escreva ("digite um nome; ");
-		leia (Mnome [Mturma][mindice] );
+	para(Mindice = 0; Mindice < 5; Mindice ++)
+	{
+	
+	escreva ("digite um nome; ");
+		leia (Mnome [Mturma][mindice])
 		escreva("digite a nota de portugues")
-	}leia (Mportugues[Mturma][Mindice])
+	0leia (Mportugues[Mturma][Mindice])
 	escreva("digite a nota de biologia")
 	leia(Mbiologia[Mturma][Mindice) 
 	escreva ("digite a nota de história")
@@ -22,7 +25,14 @@ programa
 	leia(Marte[Mturma][Mindice])
 	escreva("digite a nota de fisica")
 	leia(Mfisica[Mturma][Mindice]))
-	
-	
 	}
-}
+	}
+	para(Mturma = 0; Mturma <= 1; Mturma:"; Mindice ++)
+	{
+	escreva ("\nAluno:",
+	Mnome[Mturma][Mindice])
+	}
+	}
+	
+	
+
