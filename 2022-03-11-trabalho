@@ -34,7 +34,7 @@ programa
 	{
 	
 	escreva ("\nAluno:", Mnome[Mturma][Mindice])
-	
+	se (Mportugues[Mturma]Mindice]>= 
 	}
 	}
 	
