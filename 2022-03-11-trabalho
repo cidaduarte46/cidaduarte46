@@ -1,42 +1,48 @@
 programa
 {
+
+	programa {
+	funçao inicio() {    
 	
-	funcao inicio()
-	{
-	real portugues [5] biologia-[5] historia[5] arte[5] fisica [5] 
-	cadeia nome [5]
-	inteiro = Mindice
+	
+	real Mportugues[3][5], Mbiologia-[3][5], Mhistoria[3][5], Marte[3][5], Mfisica[3][5], [5] 
+	cadeia nome[3] [5]
+	inteiro  Mindice,Mturma
+	Mindice = 0
 	Mindice = 0
 	
-	para (Mindice =0; Mindice <4; Mindice ++
+	para (Mturma = 0; MTurma <=2; MTurma ++)
 	{
 	para(Mindice = 0; Mindice < 5; Mindice ++)
 	{
 	
-	escreva ("digite um nome; ");
-		leia (Mnome [Mturma][mindice])
-		escreva("digite a nota de portugues")
-	0leia (Mportugues[Mturma][Mindice])
-	escreva("digite a nota de biologia")
+	escreva ("digite um nome: ");
+		leia (Mnome [Mturma][Mindice])
+		escreva("digite a nota de portugues:")
+	leia (Mportugues[Mturma][Mindice])
+	escreva("digite a nota de biologia:")
 	leia(Mbiologia[Mturma][Mindice) 
-	escreva ("digite a nota de história")
+	escreva ("digite a nota de história:")
 	leia(Mhistória[Mturma][Mindice])
-	escreva("digite a nota de arte")
+	escreva("digite a nota de arte:")
 	leia(Marte[Mturma][Mindice])
-	escreva("digite a nota de fisica")
-	leia(Mfisica[Mturma][Mindice]))
+	escreva("digite a nota de fisica:")
+	leia(Mfisica[Mturma][Mindice])
 	}
 	}
-	para(Mturma = 0; Mturma <= 1; Mturma:"; Mindice ++)
+	para(Mturma = 0; Mturma <= 1; Mturma ++)
 	{
-	escreva ("\nAluno:", da turma:" Mturmas)
-	para(Mindice = 0; Mindice <= 1; Mindice ==)
+	escreva ("\nAlunos da turma:" Mturma)
+	para(Mindice = 0; Mindice <= 1; Mindice ++)
 	{
 	
 	escreva ("\nAluno:", Mnome[Mturma][Mindice])
-	se (Mportugues[Mturma]Mindice]>= 
+	se (Mportugues[Mturma]Mindice]>= 60)
+	escreva ("APROVADO")
+	senao
+	escreva (Aprovado)
 	}
+	
 	}
 	
 	
-
